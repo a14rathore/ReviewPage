@@ -1,0 +1,47 @@
+
+.cardholder{
+    /* border:  2px solid black; */
+    position: relative;
+    width: 100vw;
+    height : 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btndiv{
+    position : absolute;
+    top: 25pc;
+    left: 45pc;
+}
+.btn{
+    border: none;
+    padding: 35px;
+}
+.btn:hover{
+    background-color: lightblue;
+    border-radius: 10pc;
+    
+}
+.btnl{
+    height: 3pc;
+    width: 3pc;
+}
+.btnr{
+    transform: rotate(180deg);
+    height: 3pc;
+    width: 3pc;
+}
+@media only screen and (max-width:1340px){
+  
+.cardholder{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height : 180vh;
+}  
+.btndiv {
+    position: static;
+}
+    
+}

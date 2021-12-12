@@ -1,0 +1,93 @@
+.card{
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    /* border: 2px solid black;    */
+    border-radius: 15px;
+    background-color: white;
+}
+.photo{
+    position: relative;
+    top: -21%;
+    left: -10%;
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid black; */
+    border-radius: 3pc;
+}
+.des{
+    padding: 2px;
+    margin: -30px 20px 0px 20px;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: white;
+}
+.nam{
+    padding: 0px;
+    margin-top: 19px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: white;
+
+}
+.pos{
+   font-size: 18px;
+   padding: 10px;
+   background-color: white;
+
+}
+.pattern{
+    height : 90px;
+    width : 100px;
+    background-color: rgba(255, 255, 255, 0.023);
+    
+
+}
+.po{
+    position: relative;
+    top : -6pc;
+
+}
+.style1{
+    position: relative;
+    top: 9.5pc;
+    left : 8pc;
+}
+.style2{
+   position: relative;
+   top: -5pc;
+   left : 18pc;
+
+}
+.style3{
+   position: relative;
+   top : 9.5pc;
+   left : -5pc;
+
+}
+
+@media only screen and (max-width: 1330px) {
+    .po{
+         
+       position:static;
+    
+    }
+    .style1{
+        position: relative;
+        top: -3.5pc;
+        left: -4pc;
+    }
+    .style2{
+        position: relative;
+        top: -4pc;
+        left: -4pc;
+    
+    }
+    .style3{
+       position: relative;
+       top: -3.5pc;
+       left: -3pc;
+    
+    }
+    
+}
